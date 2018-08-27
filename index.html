@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/style.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>DashBoard</title>
+</head>
+<style>
+    .container {
+        padding-left: 110px !important;
+    }
+</style>
+
+<body>
+
+    <div class="sidebar" id="myDIV">
+        <div class="sidebar-inner">
+            <div class="sidebar-logo">
+                <div class="peers ai-c fxw-nw">
+                    <div class="peer peer-greed">
+                        <a class="sidebar-link td-n" style="text-decoration: none;" href="">
+                            <div class="peers ai-c fxw-nw">
+                                <div class="peer" style="margin-left: 17px;">
+                                    <div class="logo logo_align"><img src="img/log.png" alt="">
+                                        <span class="name_hide">Monya</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <ul class="sidebar-menu scrollable">
+                <li class="nav-item"><a href="">&nbsp;&nbsp;&nbsp;<i class="fa fa-tachometer" aria-hidden="true"></i><span class="name_hide"> Dashboard</span></a></li>
+                <li class="nav-item"><a href="">&nbsp;&nbsp;&nbsp;<i class="fa fa-envelope" aria-hidden="true"></i><span class="name_hide"> G-mail</span></a></li>
+                <li class="nav-item"><a href="">&nbsp;&nbsp;&nbsp;<i class="fa fa-compass" aria-hidden="true"></i><span class="name_hide"> Time Table</span></a></li>
+                <li class="nav-item"><a href="">&nbsp;&nbsp;&nbsp;<i class="fa fa-list" aria-hidden="true"></i><span class="name_hide"> List</span></a></li>
+                <li class="nav-item"><a href="">&nbsp;&nbsp;&nbsp;<i class="fa fa-calendar-check-o" aria-hidden="true"></i><span class="name_hide"> Calendar</span></a></li>
+                <li class="nav-item"><a href="">&nbsp;&nbsp;&nbsp;<i class="fa fa-commenting-o" aria-hidden="true"></i><span class="name_hide"> Chat</span></a></li>
+                <li class="nav-item"><a href="">&nbsp;&nbsp;&nbsp;<i class="fa fa-bar-chart" aria-hidden="true"></i><span class="name_hide"> Chart</span></a></li>
+                <li class="nav-item"><a href="">&nbsp;&nbsp;&nbsp;<i class="fa fa-pencil" aria-hidden="true"></i><span class="name_hide"> From's</span></a></li>
+                <li class="nav-item"><a href="">&nbsp;&nbsp;&nbsp;<i class="fa fa-music" aria-hidden="true"></i></i><span class="name_hide"> Music</span></a></li>
+                <li class="nav-item"><a href="">&nbsp;&nbsp;&nbsp;<i class="fa fa-table" aria-hidden="true"></i><span class="name_hide"> Table</span></a></li>
+                <li class="nav-item"><a href="">&nbsp;&nbsp;&nbsp;<i class="fa fa-map-marker" aria-hidden="true"></i><span class="name_hide"> Map</span></a></li>
+                <li class="nav-item"><a href="">&nbsp;&nbsp;&nbsp;<i class="fa fa-file" aria-hidden="true"></i><span class="name_hide"> Flie's</span></a></li>
+                <li class="nav-item"><a href="">&nbsp;&nbsp;&nbsp;<i class="fa fa-car" aria-hidden="true"></i><span class="name_hide"> Car</span></a></li>
+
+            </ul>
+        </div>
+    </div>
+    <header>
+        <div class="la">
+            <div id="name_show" class="logo" onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            <div id="search_icon" class="logo "><i class="fa fa-search" aria-hidden="true"></i></div>
+
+        </div>
+        <form id="Search" class="Search form-inline md-form form-sm">
+
+            <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
+        </form>
+        <nav>
+
+            <ul>
+                <li class="notifications_show"><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                    <ul class="notifications dropdown-menu3">
+                        <li class="padding"><i class="fa fa-bell" aria-hidden="true"></i><span>&nbsp;&nbsp;&nbsp;Notifications</span></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="padding">&nbsp;&nbsp;&nbsp;<span>Balu Kharade liked your photo...  <br>&nbsp;&nbsp;&nbsp;5 min's ago</span>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li class="padding">&nbsp;&nbsp;&nbsp;<span>Amit Desai commened your photo...  <br>&nbsp;&nbsp;&nbsp;10 min's ago</span>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li class="padding">&nbsp;&nbsp;&nbsp;<span>Akshya Chavan liked your photo...  <br>&nbsp;&nbsp;&nbsp;15 min's ago</span>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li class="padding" style="text-align: center">View All Notifications&nbsp;&nbsp; <i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                    </ul>
+                </li>
+                <li class="gmail_show"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <ul class="gmail dropdown-menu2">
+                        <li class="padding"><i class="fa fa-envelope" aria-hidden="true"></i><span>&nbsp;&nbsp;&nbsp;Gmail</span></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="padding">&nbsp;&nbsp;&nbsp;<span>Balu Kharade <span style="float:right; margin-right: 5px;">5 min</span></span>
+                            <br><span>&nbsp;&nbsp;&nbsp;Want to create your own customized <br>&nbsp;&nbsp;&nbsp;data generator for your app...</span>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li class="padding">&nbsp;&nbsp;&nbsp;<span>Akshya Chavan <span style="float:right;margin-right: 5px;">5 min</span></span>
+                            <br><span>&nbsp;&nbsp;&nbsp;Want to create your own customized <br>&nbsp;&nbsp;&nbsp;data generator for your app...</span>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li class="padding">&nbsp;&nbsp;&nbsp;<span>Amit Desai <span style="float:right;margin-right: 5px;">5 min</span></span>
+                            <br><span>&nbsp;&nbsp;&nbsp;Want to create your own customized <br>&nbsp;&nbsp;&nbsp;data generator for your app...</span>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li class="padding" style="text-align: center">View All Email&nbsp;&nbsp; <i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                    </ul>
+
+                </li>
+                <li class="login_show"><a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Balu</a>
+                    <ul class="login dropdown-menu1">
+                        <li class="padding"><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<span>Login Information</span></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="padding"><i class="fa fa-cog" aria-hidden="true"></i><span>&nbsp;&nbsp;&nbsp;Setting</span></li>
+                        <li class="padding"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<span>Profile</span></li>
+                        <li class="padding"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<span>Messages</span></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="padding"><i class="fa fa-power-off" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<span>Logout</span></li>
+                    </ul>
+                </li>
+
+
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- Search form -->
+
+
+    <div class="container-fluid">
+        <div class="row box">
+            <div class="box1 col-sm col-sm col-md-push-3" id="box">
+                <h2>Box1</h2>
+                <p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+            </div>
+            <div class=" col-sm col-sm-1 ">
+            </div>
+            <div class="box1 col-sm col-md col-md-pull-3">
+                <h2>Box2</h2>
+                <p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+            </div>
+            <div class=" col-sm col-sm-1 ">
+            </div>
+            <div class="box1 col-sm col-md">
+                <h2>Box3</h2>
+                <p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+            </div>
+
+
+
+        </div>
+        <div class="row box">
+            <div class="box1 col-sm col-sm col-md-push-3" id="box">
+                <h2>Box1</h2>
+                <p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+            </div>
+            <div class=" col-sm col-sm-1 ">
+            </div>
+            <div class="box1 col-sm col-md col-md-pull-3">
+                <h2>Box2</h2>
+                <p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+            </div>
+            <div class=" col-sm col-sm-1 ">
+            </div>
+            <div class="box1 col-sm col-md">
+                <h2>Box3</h2>
+                <p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+            </div>
+
+
+
+        </div>
+
+        <div class="row box">
+            <div class="box1 col-sm col-sm col-md-push-3" id="box">
+                <h2>Box1</h2>
+                <p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+            </div>
+            <div class=" col-sm col-sm-1 ">
+            </div>
+            <div class="box1 col-sm col-md col-md-pull-3">
+                <h2>Box2</h2>
+                <p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+            </div>
+            <div class=" col-sm col-sm-1 ">
+            </div>
+            <div class="box1 col-sm col-md">
+                <h2>Box3</h2>
+                <p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
